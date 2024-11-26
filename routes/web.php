@@ -19,7 +19,8 @@ use App\Http\Controllers\NewsController;
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
 Route::get('/about', [AboutController::class, 'index'])->name('about.index');
 Route::get('/news', [NewsController::class, 'index'])->name('news.index');
-
+/*
 Route::get('/', function () {
     return view('welcome');
 });
+*/
